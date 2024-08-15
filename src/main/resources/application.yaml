@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://camunda-engine-db.cbbghabknrkl.ap-south-1.rds.amazonaws.com:5432/camunda_db
+    username: postgres
+    password: postgres
+
+
+
+camunda.bpm.admin-user:
+  id: dailype
+  password: 12345
+
+
+camunda:
+  bpm:
+    database:
+      type: postgres
