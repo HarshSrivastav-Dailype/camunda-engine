@@ -15,3 +15,11 @@ camunda:
   bpm:
     database:
       type: postgres
+
+logging:
+  file:
+    name: /home/ubuntu/elk-stack/camunda.log
+
+      
+
+      
