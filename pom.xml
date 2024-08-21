@@ -36,7 +36,7 @@
           <artifactId>camunda-connect-bom</artifactId>
           <scope>import</scope>
           <type>pom</type>
-          <version>7.21.0</version>
+          <version>1.6.0</version>
         </dependency>
     </dependencies>
   </dependencyManagement>
