@@ -31,13 +31,6 @@
         <scope>import</scope>
         <type>pom</type>
       </dependency>
-        <dependency>
-          <groupId>org.camunda.connect</groupId>
-          <artifactId>camunda-connect-bom</artifactId>
-          <scope>import</scope>
-          <type>pom</type>
-          <version>1.6.0</version>
-        </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -83,10 +76,10 @@
 <!--      <groupId>org.camunda.connect</groupId>-->
 <!--      <artifactId>camunda-connect-core</artifactId>-->
 <!--    </dependency>-->
-    <dependency>
-      <groupId>org.camunda.connect</groupId>
-      <artifactId>camunda-connect-http-client</artifactId>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.camunda.connect</groupId>-->
+<!--      <artifactId>camunda-connect-http-client</artifactId>-->
+<!--    </dependency>-->
 <!--    <dependency>-->
 <!--      <groupId>org.camunda.connect</groupId>-->
 <!--      <artifactId>camunda-connect-soap-http-client</artifactId>-->
