@@ -15,7 +15,3 @@ camunda:
   bpm:
     database:
       type: postgres
-
-      
-
-      
