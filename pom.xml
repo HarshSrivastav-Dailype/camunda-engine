@@ -31,6 +31,7 @@
         <scope>import</scope>
         <type>pom</type>
       </dependency>
+
     </dependencies>
   </dependencyManagement>
 
@@ -72,22 +73,22 @@
       <artifactId>camunda-spin-dataformat-all</artifactId>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>org.camunda.connect</groupId>-->
-<!--      <artifactId>camunda-connect-core</artifactId>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.camunda.connect</groupId>-->
-<!--      <artifactId>camunda-connect-http-client</artifactId>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.camunda.connect</groupId>-->
-<!--      <artifactId>camunda-connect-soap-http-client</artifactId>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.camunda.bpm</groupId>-->
-<!--      <artifactId>camunda-engine-plugin-connect</artifactId>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-http-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-soap-http-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine-plugin-connect</artifactId>
+    </dependency>
         <dependency>
           <groupId>org.camunda.connect</groupId>
           <artifactId>camunda-connect-connectors-all</artifactId>
