@@ -15,3 +15,9 @@ camunda:
   bpm:
     database:
       type: postgres
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html

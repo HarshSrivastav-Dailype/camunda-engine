@@ -112,6 +112,15 @@
       <artifactId>spring-boot-starter-jdbc</artifactId>
     </dependency>
 
+<!--    spring docs-->
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.7.0</version> <!-- use the latest version -->
+    </dependency>
+
+
     <!-- Exclude H2 if not needed -->
 <!--    <dependency>-->
 <!--      <groupId>com.h2database</groupId>-->
