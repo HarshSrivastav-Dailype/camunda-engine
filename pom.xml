@@ -114,6 +114,40 @@
 
 <!--    spring docs-->
 
+
+    <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.camunda.bpm.extension.swagger/camunda-bpm-swagger-json -->
+    <dependency>
+      <groupId>org.camunda.bpm.extension.swagger</groupId>
+      <artifactId>camunda-bpm-swagger-json</artifactId>
+      <version>7.8.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>swagger-ui</artifactId>
+      <version>3.1.4</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine-rest-openapi</artifactId>
+      <version>7.13.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.camunda.bpm.springboot</groupId>
+      <artifactId>camunda-bpm-spring-boot-starter-test</artifactId>
+    </dependency>
+
+
     <dependency>
       <groupId>org.springdoc</groupId>
       <artifactId>springdoc-openapi-ui</artifactId>
