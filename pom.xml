@@ -23,6 +23,13 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.camunda.connect</groupId>
+        <artifactId>camunda-connect-bom</artifactId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>1.6.0</version>
+      </dependency>
 
       <dependency>
         <groupId>org.camunda.bpm</groupId>
@@ -72,26 +79,22 @@
       <artifactId>camunda-spin-dataformat-all</artifactId>
     </dependency>
 
-    <!--    <dependency>-->
-    <!--      <groupId>org.camunda.connect</groupId>-->
-    <!--      <artifactId>camunda-connect-core</artifactId>-->
-    <!--    </dependency>-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.camunda.connect</groupId>-->
-    <!--      <artifactId>camunda-connect-http-client</artifactId>-->
-    <!--    </dependency>-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.camunda.connect</groupId>-->
-    <!--      <artifactId>camunda-connect-soap-http-client</artifactId>-->
-    <!--    </dependency>-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.camunda.bpm</groupId>-->
-    <!--      <artifactId>camunda-engine-plugin-connect</artifactId>-->
-    <!--    </dependency>-->
-    <!--        <dependency>-->
-    <!--          <groupId>org.camunda.connect</groupId>-->
-    <!--          <artifactId>camunda-connect-connectors-all</artifactId>-->
-    <!--        </dependency>-->
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-http-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-soap-http-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.camunda.bpm</groupId>
+      <artifactId>camunda-engine-plugin-connect</artifactId>
+    </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -101,7 +104,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>42.6.0</version>
+      <version>42.7.3</version>
     </dependency>
 
     <dependency>
@@ -110,11 +113,11 @@
     </dependency>
 
     <!-- Exclude H2 if not needed -->
-    <!--    <dependency>-->
-    <!--      <groupId>com.h2database</groupId>-->
-    <!--      <artifactId>h2</artifactId>-->
-    <!--      <scope>test</scope>-->
-    <!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.h2database</groupId>-->
+<!--      <artifactId>h2</artifactId>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
   </dependencies>
 
   <build>
