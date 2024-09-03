@@ -4,17 +4,22 @@ spring:
     username: postgres
     password: postgres
 
-
-
-camunda.bpm.admin-user:
-  id: dailype
-  password: 12345
-
-
 camunda:
   bpm:
+    admin-user:
+      id: dailype
+      password: 12345
     database:
       type: postgres
+      schema-update: true
+      db-schema-update: true
+    job-execution:
+      enabled: true
+    process-engine:
+      name: default
+      history-level: full
+      async-execution:
+        enabled: true
 
 springdoc:
   api-docs:
